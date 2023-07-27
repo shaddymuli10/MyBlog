@@ -1,0 +1,83 @@
+#main-navigation{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 10%;
+    top:0;
+    left: 0;
+    position: absolute;
+    color: white;
+    background-color: aqua;
+    
+}
+#main-navigation a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    background-color: aqua;
+    
+}
+#main-navigation a:hover{
+    color: #e48900;
+}
+#all-posts{
+    width: 90%;
+    margin: 7rem auto;
+    max-width: 60rem;
+}
+#all-posts h2{
+    text-align: center;
+    font-size: 2rem;
+    color:#2e2e2e;
+    margin: 3rem 0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+    gap: 1.5rem;
+}
+.post img{
+    width: 7rem;
+    height: 7rem;
+    
+    
+}
+
+.post a{
+    height: 20rem;
+    box-shadow: 0 2px 8px rgba(0, 0,0 ,0.25 );
+    background-color: white;
+    border-radius: 12px;
+    transform-origin: center;
+}
+.post{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    text-align: center;
+}
+.post a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    transition: all 0.2s ease;
+}
+.post a:hover, .post a:active{
+    transform: scale(1.1);
+    color:yellowgreen;
+    background-color: #333038;
+}
+.post img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.post h3{
+    margin: 0.25rem 0;
+}
